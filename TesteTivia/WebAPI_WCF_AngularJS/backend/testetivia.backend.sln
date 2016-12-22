@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A64779F4-9C64-4A8D-B60E-47539B1BDAA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{C928B96C-74A6-4DFB-9584-2EE639414026}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1D4B6F0A-CCF1-4545-9B77-CEEA5031E111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3A314576-3B42-40BD-892F-7D6A0BB9C41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.application", "Application\testetivia.backend.application\testetivia.backend.application.csproj", "{FDC68690-485B-4833-8155-1B664D034371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.domain", "Domain\testetivia.backend.domain\testetivia.backend.domain.csproj", "{8EACB5AC-4160-4767-8A88-80409FD723BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.domain.model", "Domain\testetivia.backend.domain.model\testetivia.backend.domain.model.csproj", "{18EDB9EF-D229-4279-A0C7-4493BBE35BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.infrastructure", "Infrastructure\testetivia.backend.infrastructure\testetivia.backend.infrastructure.csproj", "{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.interfaces.webapi", "Interface\testetivia.backend.interfaces.webapi\testetivia.backend.interfaces.webapi.csproj", "{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.domain.repository", "Domain\testetivia.backend.domain.repository\testetivia.backend.domain.repository.csproj", "{DA5ED6DB-1F1C-4219-8135-BD082CDBD204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testetivia.backend.interfaces.wcf", "Interface\testetivia.backend.interfaces.wcf\testetivia.backend.interfaces.wcf.csproj", "{CFBB4D9B-ACF3-41AC-A576-141C50944810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC68690-485B-4833-8155-1B664D034371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC68690-485B-4833-8155-1B664D034371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC68690-485B-4833-8155-1B664D034371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC68690-485B-4833-8155-1B664D034371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EACB5AC-4160-4767-8A88-80409FD723BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EACB5AC-4160-4767-8A88-80409FD723BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EACB5AC-4160-4767-8A88-80409FD723BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EACB5AC-4160-4767-8A88-80409FD723BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EDB9EF-D229-4279-A0C7-4493BBE35BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EDB9EF-D229-4279-A0C7-4493BBE35BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EDB9EF-D229-4279-A0C7-4493BBE35BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EDB9EF-D229-4279-A0C7-4493BBE35BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5ED6DB-1F1C-4219-8135-BD082CDBD204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5ED6DB-1F1C-4219-8135-BD082CDBD204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5ED6DB-1F1C-4219-8135-BD082CDBD204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5ED6DB-1F1C-4219-8135-BD082CDBD204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBB4D9B-ACF3-41AC-A576-141C50944810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBB4D9B-ACF3-41AC-A576-141C50944810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBB4D9B-ACF3-41AC-A576-141C50944810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBB4D9B-ACF3-41AC-A576-141C50944810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDC68690-485B-4833-8155-1B664D034371} = {A64779F4-9C64-4A8D-B60E-47539B1BDAA7}
+		{8EACB5AC-4160-4767-8A88-80409FD723BB} = {1D4B6F0A-CCF1-4545-9B77-CEEA5031E111}
+		{18EDB9EF-D229-4279-A0C7-4493BBE35BF2} = {1D4B6F0A-CCF1-4545-9B77-CEEA5031E111}
+		{B6F36CFC-FD3A-494D-A1A4-E9DDD4CCC26A} = {3A314576-3B42-40BD-892F-7D6A0BB9C41C}
+		{A47676BE-9F2D-4BDB-A56E-AE4A27D722F1} = {C928B96C-74A6-4DFB-9584-2EE639414026}
+		{DA5ED6DB-1F1C-4219-8135-BD082CDBD204} = {1D4B6F0A-CCF1-4545-9B77-CEEA5031E111}
+		{CFBB4D9B-ACF3-41AC-A576-141C50944810} = {C928B96C-74A6-4DFB-9584-2EE639414026}
+	EndGlobalSection
+EndGlobal

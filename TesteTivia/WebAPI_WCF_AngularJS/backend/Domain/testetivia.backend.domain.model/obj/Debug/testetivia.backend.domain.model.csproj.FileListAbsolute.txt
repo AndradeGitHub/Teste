@@ -1,0 +1,9 @@
+C:\Sistemas\TesteTivia\WebAPI_AngularJS\backend\Domain\testetivia.backend.domain.model\bin\Debug\testetivia.backend.domain.model.dll
+C:\Sistemas\TesteTivia\WebAPI_AngularJS\backend\Domain\testetivia.backend.domain.model\bin\Debug\testetivia.backend.domain.model.pdb
+C:\Sistemas\TesteTivia\WebAPI_AngularJS\backend\Domain\testetivia.backend.domain.model\obj\Debug\testetivia.backend.domain.model.dll
+C:\Sistemas\TesteTivia\WebAPI_AngularJS\backend\Domain\testetivia.backend.domain.model\obj\Debug\testetivia.backend.domain.model.pdb
+C:\Sistemas\TesteTivia\WebAPI_WCF_AngularJS\backend\Domain\testetivia.backend.domain.model\bin\Debug\testetivia.backend.domain.model.dll
+C:\Sistemas\TesteTivia\WebAPI_WCF_AngularJS\backend\Domain\testetivia.backend.domain.model\bin\Debug\testetivia.backend.domain.model.pdb
+C:\Sistemas\TesteTivia\WebAPI_WCF_AngularJS\backend\Domain\testetivia.backend.domain.model\obj\Debug\testetivia.backend.domain.model.csprojResolveAssemblyReference.cache
+C:\Sistemas\TesteTivia\WebAPI_WCF_AngularJS\backend\Domain\testetivia.backend.domain.model\obj\Debug\testetivia.backend.domain.model.dll
+C:\Sistemas\TesteTivia\WebAPI_WCF_AngularJS\backend\Domain\testetivia.backend.domain.model\obj\Debug\testetivia.backend.domain.model.pdb

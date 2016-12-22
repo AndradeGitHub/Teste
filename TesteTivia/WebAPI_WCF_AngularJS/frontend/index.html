@@ -1,0 +1,99 @@
+<html ng-app="lojaDeMusica">
+<head>
+	<meta charset="UTF-8">
+	<title>Teste Tivia</title>
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/ui.css">
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular/angular-messages.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/lojaDeMusicaCtrl.js"></script>
+	<script src="js/services/musicasAPIService.js"></script>
+	<script src="js/services/cdsAPIService.js"></script>
+	<script src="js/value/configValue.js"></script>
+	<script src="js/filters/nameFilter.js"></script>
+	<script src="js/filters/ellipsisFilter.js"></script>
+	<script src="js/filters/substFilter.js"></script>
+	<script src="js/directives/uiAlertDirective.js"></script>
+</head>
+<body ng-controller="lojaDeMusicaCtrl">
+	<div class="jumbotron">
+		<ui>PESQUISAR CD</ui>
+		<form name="cdForm">
+			<table class="table table-striped">
+				<tr>
+					<th>Título</th>
+					<th>Artista</th>
+					<th>Gênero</th>
+					<th>Música</th>
+				</tr>
+				<tr>
+					<td><input class="form-control" type="text" ng-model="cd.titulo"/></td>
+					<td><input class="form-control" type="text" ng-model="cd.artista"/></td>
+					<td><input class="form-control" type="text" ng-model="cd.generoMusica" disabled="true"/></td>
+					<td><input class="form-control" type="text" ng-model="cd.nomeMusica" disabled="true"/></td>
+				</tr>
+			</table>
+		</form>
+		<button class="btn btn-primary btn-block" ng-click="pesquisarCd(cd.titulo, cd.artista, cd.generoMusica, cd.nomeMusica)">Pesquisar</button>
+		<table ng-show="cds.length > 0" class="table table-striped">
+			<tr style="color: #428bca; font-size: 14px;">
+				<th>Título</th>
+				<th>Artista</th>
+				<th>Total Duração</th>
+			</tr>
+			<tr ng-repeat="cd in cds" style="font-size: 14px;">
+				<td>{{cd.Titulo | name}}</td>
+				<td>{{cd.Artista | name}}</td>
+				<td>{{cd.TotalDuracao | subs}}</td>
+			</tr>
+		</table>
+		<hr/>
+		<ui>PESQUISAR MÚSICA</ui>
+		<form name="musicaForm">
+			<input class="form-control" type="text" ng-model="musica.nome" ng-required="true" placeholder="Digite o nome da música"/>
+		</form>
+		<button class="btn btn-primary btn-block" ng-click="pesquisarMusica(musica.nome)" ng-disabled="musicaForm.$invalid">Pesquisar</button>
+		<table ng-show="musicas.length > 0" class="table table-striped">
+			<tr style="color: #428bca; font-size: 14px;">
+				<th>Nome</th>
+				<th>Gênero</th>
+				<th>Cd</th>
+				<th>Duração</th>
+			</tr>
+			<tr ng-repeat="musica in musicas" style="font-size: 14px;">
+				<td>{{musica.Nome | name}}</td>
+				<td>{{musica.Genero | name}}</td>
+				<td>{{musica.Cds[0].Titulo | name}}</td>
+				<td>{{musica.Cds[0].TotalDuracao | subs}}</td>
+			</tr>
+		</table>
+		<hr/>
+		<ui>ADICIONAR CD</ui>
+		<form name="addCdForm">
+			<input class="form-control" type="text" ng-model="addCd.titulo" name="titulo" placeholder="Título Cd" ng-required="true"/>
+			<input class="form-control" type="text" ng-model="addCd.artista" name="artista" placeholder="Artista Cd" ng-required="true"/>
+			<table style="width:100%">
+				<tr>
+					<td><input class="form-control" type="text" ng-model="addCd.Musicas[0].Nome" name="Musicas[0].Nome" placeholder="Nome Música" ng-required="true"/></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[0].genero" name="musicas[0].genero" placeholder="Gênero Música" ng-required="true"/></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[0].duracao" name="musicas[0].duracao" placeholder="Duração Música" ng-required="true"/></td>
+				</tr>
+				<tr>
+					<td><input class="form-control" type="text" ng-model="addCd.Musicas[1].Nome" name="Musicas[1].Nome" placeholder="Nome Música"/></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[1].genero" name="musicas[1].genero" placeholder="Gênero Música"/></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[1].duracao" name="musicas[1].duracao" placeholder="Duração Música" /></td>
+				</tr>
+				<tr>
+					<td><input class="form-control" type="text" ng-model="addCd.Musicas[2].Nome" name="Musicas[2].Nome" placeholder="Nome Música" /></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[2].genero" name="musicas[2].genero" placeholder="Gênero Música"/></td>
+					<td><input class="form-control" type="text" ng-model="addCd.musicas[2].duracao" name="musicas[2].duracao" placeholder="Duração Música" /></td>
+				</tr>
+			</table>
+		</form>
+
+		<button class="btn btn-primary btn-block" ng-click="adicionarCd(addCd)" ng-disabled="addCdForm.$invalid">Adicionar</button>
+	</div>
+</body>
+</html>
