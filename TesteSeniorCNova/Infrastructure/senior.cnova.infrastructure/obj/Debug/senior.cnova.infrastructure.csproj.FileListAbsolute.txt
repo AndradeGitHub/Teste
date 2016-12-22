@@ -1,0 +1,14 @@
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\senior.cnova.infrastructure.dll.config
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\senior.cnova.infrastructure.dll
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\senior.cnova.infrastructure.pdb
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\EntityFramework.dll
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\senior.cnova.domain.model.dll
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\senior.cnova.domain.model.pdb
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\EntityFramework.xml
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\obj\Debug\senior.cnova.infrastructure.csprojResolveAssemblyReference.cache
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\obj\Debug\senior.cnova.infrastructure.Migrations.InitialCreate.resources
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\obj\Debug\senior.cnova.infrastructure.csproj.GenerateResource.Cache
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\obj\Debug\senior.cnova.infrastructure.dll
+C:\Sistemas\TesteSeniorCnova\Infrastructure\senior.cnova.infrastructure\obj\Debug\senior.cnova.infrastructure.pdb

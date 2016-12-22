@@ -1,0 +1,5 @@
+C:\Sistemas\TesteSeniorCnova\Domain\senior.cnova.domain.model\bin\Debug\senior.cnova.domain.model.dll
+C:\Sistemas\TesteSeniorCnova\Domain\senior.cnova.domain.model\bin\Debug\senior.cnova.domain.model.pdb
+C:\Sistemas\TesteSeniorCnova\Domain\senior.cnova.domain.model\obj\Debug\senior.cnova.domain.model.csprojResolveAssemblyReference.cache
+C:\Sistemas\TesteSeniorCnova\Domain\senior.cnova.domain.model\obj\Debug\senior.cnova.domain.model.dll
+C:\Sistemas\TesteSeniorCnova\Domain\senior.cnova.domain.model\obj\Debug\senior.cnova.domain.model.pdb
